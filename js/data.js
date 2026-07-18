@@ -3,17 +3,17 @@ const PRODUCT_GROUPS = [
 {
 groupId:"sweater", name:"SOTAS Sweater", category:"sweater", price:550, bestseller:true, isNew:false,
 variants:[
-{ sku:"sweater-black", color:"BLACK", hex:"#111111", image:"https://images.unsplash.com/photo-1578768079052-aa76e52ff62e?w=600&q=80", sizes:{ "M":1,"L":1,"XL":3 } },
-{ sku:"sweater-red", color:"RED", hex:"#C1272D", image:"https://via.placeholder.com/600/C1272D/FFFFFF?text=Sweater+RED", sizes:{ "XL":1 } },
-{ sku:"sweater-white", color:"WHITE", hex:"#FFFFFF", image:"https://via.placeholder.com/600/FFFFFF/111111?text=Sweater+WHITE", sizes:{ "XL":1,"XXL":1 } }
+{ sku:"sweater-black", color:"BLACK", hex:"#111111", image:"images/sweater-black.jpeg", sizes:{ "M":1,"L":1,"XL":3 } },
+{ sku:"sweater-red", color:"RED", hex:"#C1272D", image:"images/sweater-red.jpeg", sizes:{ "XL":1 } },
+{ sku:"sweater-white", color:"WHITE", hex:"#FFFFFF", image:"images/sweater-white.jpeg", sizes:{ "XL":1,"XXL":1 } }
 ]
 },
 {
 groupId:"hoodie-normal", name:"SOTAS Hoodie (Normal)", category:"hoodie", price:550, bestseller:true, isNew:true,
 variants:[
-{ sku:"hoodie-black", color:"BLACK", hex:"#111111", image:"https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80", sizes:{ "S":1,"L":1,"XL":1,"XXL":1 } },
-{ sku:"hoodie-white", color:"WHITE", hex:"#FFFFFF", image:"https://via.placeholder.com/600/FFFFFF/111111?text=Hoodie+WHITE", sizes:{ "XL":1,"XXL":1 } },
-{ sku:"hoodie-navy", color:"NAVY BLUE", hex:"#1E2A4A", image:"https://via.placeholder.com/600/1E2A4A/FFFFFF?text=Hoodie+NAVY", sizes:{ "L":1 } }
+{ sku:"hoodie-black", color:"BLACK", hex:"#111111", image:"images/hoodie-black.jpeg", sizes:{ "S":1,"L":1,"XL":1,"XXL":1 } },
+{ sku:"hoodie-white", color:"WHITE", hex:"#FFFFFF", image:"images/hoodie-white.jpeg", sizes:{ "XL":1,"XXL":1 } },
+{ sku:"hoodie-navy", color:"NAVY BLUE", hex:"#1E2A4A", image:"images/hoodie-blue.jpeg", sizes:{ "L":1 } }
 ]
 },
 {
