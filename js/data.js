@@ -19,33 +19,33 @@ variants:[
 {
 groupId:"hoodie-double", name:"Double Layer Hoodie", category:"hoodie", price:650, bestseller:true, isNew:true,
 variants:[
-{ sku:"double-red", color:"RED", hex:"#B91C1C", image:"images/hoodie-double-red.jpg", sizes:{ "M":2,"L":2,"XL":1,"XXL":2 } }
+{ sku:"double-red", color:"RED", hex:"#891C1C", image:"images/double-layer-hoodie-red.jpeg", sizes:{ "M":2,"L":2,"XL":1,"XXL":2 } }
 ]
 },
 {
 groupId:"jacket", name:"Pull Over Jacket (Vest)", category:"jacket", price:750, bestseller:false, isNew:false,
 variants:[
-{ sku:"jacket-black", color:"BLACK", hex:"#111111", image:"https://images.unsplash.com/photo-1548126032-079a0fb0099d?w=600&q=80", sizes:{ "S":1,"M":1,"L":1,"XL":1,"XXL":1 } },
-{ sku:"jacket-navy", color:"NAVY BLUE", hex:"#1E2A4A", image:"https://via.placeholder.com/600/1E2A4A/FFFFFF?text=Vest+NAVY", sizes:{ "S":1,"M":1,"L":1,"XL":1,"XXL":1 } }
+{ sku:"jacket-black", color:"BLACK", hex:"#111111", image:"images/pull-over-sweater-black.jpeg", sizes:{ "S":1,"M":1,"L":1,"XL":1,"XXL":1 } },
+{ sku:"jacket-navy", color:"NAVY BLUE", hex:"#1E2A4A", image:"images/pull-over-sweater-blue.jpeg", sizes:{ "S":1,"M":1,"L":1,"XL":1,"XXL":1 } }
 ]
 },
 {
 groupId:"track", name:"SOTAS Track Pants", category:"track", price:480, bestseller:true, isNew:false,
 variants:[
-{ sku:"track-red", color:"RED", hex:"#C1272D", image:"https://via.placeholder.com/600/C1272D/FFFFFF?text=Track+RED", sizes:{ "M":1,"L":1,"XL":1 } },
-{ sku:"track-white", color:"WHITE", hex:"#FFFFFF", image:"https://via.placeholder.com/600/F5F1E9/111111?text=Track+WHITE", sizes:{ "M":1,"L":1,"XL":1 } }
+{ sku:"track-red", color:"RED", hex:"#C1272D", image:"images/track-pants-red.jpeg", sizes:{ "M":1,"L":1,"XL":1 } },
+{ sku:"track-white", color:"WHITE", hex:"#FFFFFF", image:"images/track-pants-white.jpeg", sizes:{ "M":1,"L":1,"XL":1 } }
 ]
 },
 {
 groupId:"tshirt", name:"SOTAS T-Shirt", category:"tshirt", price:280, bestseller:false, isNew:true,
 variants:[
-{ sku:"tee-red", color:"RED", hex:"#C1272D", image:"https://via.placeholder.com/600/C1272D/FFFFFF?text=Tee+RED", sizes:{ "S":1,"M":1,"L":1,"XL":1,"XXL":1,"XXXL":2 } },
-{ sku:"tee-navy", color:"NAVY BLUE", hex:"#1E2A4A", image:"https://via.placeholder.com/600/1E2A4A/FFFFFF?text=Tee+NAVY", sizes:{ "S":1,"M":1,"L":1,"XL":1,"XXL":1,"XXXL":1 } },
-{ sku:"tee-yellow", color:"YELLOW", hex:"#EAB308", image:"https://via.placeholder.com/600/EAB308/111111?text=Tee+YELLOW", sizes:{ "S":1,"M":1,"L":1,"XL":1,"XXL":1,"XXXL":1 } },
-{ sku:"tee-black", color:"BLACK", hex:"#111111", image:"https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80", sizes:{ "S":1,"XXXL":1 } },
-{ sku:"tee-cream", color:"CREAM WHITE", hex:"#E7DCC8", image:"https://via.placeholder.com/600/E7DCC8/111111?text=Tee+CREAM", sizes:{ "S":1,"L":1,"XL":1 } },
-{ sku:"tee-white", color:"WHITE", hex:"#FFFFFF", image:"https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80", sizes:{ "S":2,"M":1,"L":1,"XL":1,"XXL":1,"XXXL":1 } },
-{ sku:"tee-grey", color:"GREY", hex:"#9CA3AF", image:"https://via.placeholder.com/600/9CA3AF/111111?text=Tee+GREY", sizes:{ "L":1,"XL":1,"XXL":1 } }
+{ sku:"tee-red", color:"RED", hex:"#C1272D", image:"images/tee-red.jpeg", sizes:{ "S":1,"M":1,"L":1,"XL":1,"XXL":1,"XXXL":2 } },
+{ sku:"tee-navy", color:"NAVY BLUE", hex:"#1E2A4A", image:"images/tee-blue.jpeg", sizes:{ "S":1,"M":1,"L":1,"XL":1,"XXL":1,"XXXL":1 } },
+{ sku:"tee-yellow", color:"YELLOW", hex:"#EAB308", image:"images/tee-yellow.jpeg", sizes:{ "S":1,"M":1,"L":1,"XL":1,"XXL":1,"XXXL":1 } },
+{ sku:"tee-black", color:"BLACK", hex:"#111111", image:"images/tee-black.jpeg", sizes:{ "S":1,"XXXL":1 } },
+{ sku:"tee-cream", color:"CREAM WHITE", hex:"#E7DCC8", image:"images/tee-cream-white.jpeg", sizes:{ "S":1,"L":1,"XL":1 } },
+{ sku:"tee-white", color:"WHITE", hex:"#FFFFFF", image:"images/tee-white.jpeg", sizes:{ "S":2,"M":1,"L":1,"XL":1,"XXL":1,"XXXL":1 } },
+{ sku:"tee-grey", color:"GREY", hex:"#9CA3AF", image:"images/tee-gray.jpeg", sizes:{ "L":1,"XL":1,"XXL":1 } }
 ]
 }
 ];
