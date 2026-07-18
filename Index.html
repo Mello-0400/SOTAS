@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOTAS | Son Of The African Soil</title>
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+    <body>
+    <!-- nav -->
+        <header class="navbar">
+            <div class="logo">
+                <span class="logo-s">S</span>
+                <div>
+                <h1>SOTAS</h1>
+                <p>SON OF THE AFRICAN SOIL</p>
+                </div>
+            </div>
+
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="#story">Our Story</a>
+            </nav>
+            <button id="cartBtn" class="cart-btn">Cart <span id="cartCount">0</span></button>
+        </header>
+
+    <!-- hero -->
+        <section class="hero">
+            <div class="hero-text">
+                <h2>REMAINING STOCK</h2>
+                <h3>Rooted in Africa, worn with pride.</h3>
+                <p>Limited stock available. Sizes S - 4XL. Nationwide delivery.</p>
+
+                <a href="shop.html" class="btn-primary">Shop Now</a>
+                <p class="whatsapp">WhatsApp: +27 72 781 1936</p>
+            </div>
+
+            <div class="hero-img">
+                <img src="images/hoodie-double-red.jpg" alt="SOTAS hero">
+            </div>
+        </section>
+
+    <!-- featured -->
+        <section class="section">
+            <h2 class="section-title">Best Sellers</h2>
+            <div id="featuredGrid" class="product-grid"></div>
+        </section>
+          
+        <section id="story" class="story-expanded">
+            <div class="story-wrap">
+                <div class="story-left">
+                    <span class="eyebrow">SON OF THE AFRICAN SOIL</span>
+                    <h2>Rooted in Africa.<br>Worn with Pride.</h2>
+                    <p>SOTAS was born in Gauteng with one idea: make clothes that feel like home. Not fast fashion. Real pieces you can live in, wash, repeat, and still feel proud wearing.</p>
+                    
+                    <div class="story-stats">
+                        <div><strong>2022</strong><span>Founded</span></div>
+                        <div><strong>S - 4XL</strong><span>All bodies included</span></div>
+                        <div><strong>100%</strong><span>Designed in SA</span></div>
+                    </div>
+                </div>
+
+                <div class="story-right">
+                    <h4>What we stand for</h4>
+                    <ul>
+                        <li><strong>Roots:</strong> Our name is our promise. African soil, African stories, African future.</li>
+                        <li><strong>Quality over hype:</strong> Double layer hoodies, heavy tees that don't fade, track pants that last.</li>
+                        <li><strong>Community:</strong> Every drop is limited. When it's gone, it's gone. We restock based on what you ask for on WhatsApp.</li>
+                    </ul>
+                    
+                    <h4>How we make it</h4>
+                    <p>Small batches, local suppliers where possible, and we test every fit on real people from S to 4XL before we sell. No perfect model sizing.</p>
+                    <a href="shop.html" class="btn-primary">Shop Remaining Stock</a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-grid">
+                <div>
+                    <h4>SHOP</h4>
+                    <a data-shop="new">New Arrivals</a>
+                    <a data-shop="best">Best Sellers</a>
+                    <a data-shop="apparel">Apparel</a>
+                    <a data-shop="headwear">Headwear</a>
+                    <a data-shop="sale">Sale</a>
+                </div>
+
+                <div>
+                    <h4>COMPANY</h4>
+                    <a data-company="story">Our Story</a>
+                    <a data-company="journal">Journal</a>
+                    <a data-company="stockists">Stockists</a>
+                    <a data-company="careers">Careers</a>
+                </div>
+
+                <div>
+                    <h4>SUPPORT</h4>
+                    <a data-support="contact">Contact</a>
+                    <a data-support="shipping">Shipping & Returns</a>
+                    <a data-support="size">Size Guide</a>
+                    <a data-support="faq" class="gold">FAQs</a>
+                </div>
+
+            </div>
+            <div class="footer-bottom"><p>© 2026 SOTAS - Son Of The African Soil | WhatsApp +27 72 781 1936</p></div>
+        </footer>
+
+
+    <!-- cart drawer -->
+        <div id="cartDrawer" class="cart-drawer">
+            <div class="cart-header">
+                <h3>Your Cart</h3>
+                <button Id="closeCart">X</button>
+            </div>
+
+            <div class="cart-scroll">
+                <div id="cartItems"></div>
+                
+                <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">R0</span>
+
+                <div class="cart-form">
+                    <h4> CUSTOMER DETAILS</h4>
+                    <input type="text" id="custName" placeholder="Full Name" required>
+                    <input type="tel" id="custPhone" placeholder="Phone/Whatsapp" required>
+                    <input type="email" id="custEmail" placeholder="Email" required>
+
+                    <h4>SHIPPING INFORMATION</h4>
+                    <input type="text" id="shipAddress" placeholder="Street Address" required>
+                    <input type="text" id="shipCity" placeholder="City" required>
+                    <select id="shipProvance" required>
+                        <option values="">Select Provance</option>
+
+                        <option value="Gauteng">Gauteng</option>
+                        <option value="Limpopo">Limpopo</option>
+                        <option value="Western Cape">Western Cape</option>
+                        <option value="KwaZulu-Natal">KwaZulu-Natal</option>
+                        <option value="Eastern Cape">Eastern Cape</option>
+                        <option value="Free State">Free State</option>
+                        <option value="Mpumalanga">Mpumalanga</option>
+                        <option value="North West">North West</option>
+                        <option value="Northern Cape">Northern Cape</option>
+                    </select>
+
+                    <input type="text" id="shipCode" placeholder="postalCode" required>
+                    <select id="shipMethod" required>
+                        <option value="standard">Standard R80</option>
+                        <option value="express">Express R150</option>
+                        <option value="collect">Collect Free</option>
+                    </select>
+                    <button type="submit" form="checkoutForm" class="btn-primary full"> PLace Order</button> 
+                </div>
+
+                </div>
+        </div>
+        </div>
+>
+    <div id="overlay" class="overlay"></div>
+
+    <script src="js/data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/app.js"></script>
+    </body>
+</html>
